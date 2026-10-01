@@ -35,4 +35,10 @@ Model behavior testing without its resrictions
 - Will quarantine on failed second attempt
 - Return 422 after second failure
 
+# Stage 4
+
+### LLM Retry Policy
+
+The application disables the SDK's built-in retries (`max_retries=0`) and uses its own retry policy. Timeouts, HTTP 429 responses, and HTTP 5xx responses are retried up to two times with exponential backoff and jitter. HTTP 400, 401, and 403 responses are not retried.
+
 

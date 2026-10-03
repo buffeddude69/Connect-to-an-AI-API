@@ -1,0 +1,34 @@
+[
+  {
+    "text": "I was charged twice for my subscription.",
+    "expected_category": "billing"
+  },
+  {
+    "text": "My payment was declined even though I have enough money.",
+    "expected_category": "billing"
+  },
+  {
+    "text": "The app crashes every time I upload a photo.",
+    "expected_category": "bug"
+  },
+  {
+    "text": "The dashboard shows a blank page after I log in.",
+    "expected_category": "bug"
+  },
+  {
+    "text": "Could you add dark mode to the dashboard?",
+    "expected_category": "feature"
+  },
+  {
+    "text": "It would be useful if I could export my reports as CSV.",
+    "expected_category": "feature"
+  },
+  {
+    "text": "Something is wrong with my account.",
+    "expected_category": "other"
+  },
+  {
+    "text": "asdf",
+    "expected_category": "other"
+  }
+]
